@@ -1,0 +1,15 @@
+{
+  "name": "capjs",
+  "version": "0.1.0",
+  "description": "A small modular JavaScript game framework (capjs)",
+  "main": "src/capjs/engine.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server examples -c-1 -p 8080",
+    "serve": "npx http-server examples -c-1 -p 8080"
+  },
+  "keywords": ["game", "framework", "canvas", "capjs"],
+  "author": "r7l-labs",
+  "license": "MIT",
+  "devDependencies": {}
+}
