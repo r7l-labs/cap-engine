@@ -19,4 +19,4 @@ What is included
 - `src/capjs/` — framework modules (Engine, Scene, Entity, Renderer, Input, Resources, Math)
 - `examples/` — a minimal demo showing how to use the framework
 
-License: MIT
+License: All Rights Reserved
