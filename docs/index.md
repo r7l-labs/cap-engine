@@ -8,4 +8,6 @@ Contents:
 - `api.md` — module and class reference for the core modules
 - `examples.md` — overview of included examples and how they work
 
+- `using-minified.md` — how to import and use the bundled `dist/capjs.min.js` in offline or online projects
+
 This documentation is intentionally concise and focuses on developer getting-started steps and the available public API.
