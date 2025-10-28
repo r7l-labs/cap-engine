@@ -6,10 +6,19 @@
   "type": "module",
   "scripts": {
     "start": "npx http-server examples -c-1 -p 8080",
-    "serve": "npx http-server examples -c-1 -p 8080"
+    "serve": "npx http-server examples -c-1 -p 8080",
+    "build": "esbuild src/capjs/index.js --bundle --format=iife --global-name=capjs --outfile=dist/capjs.js",
+    "build:min": "esbuild src/capjs/index.js --bundle --format=iife --global-name=capjs --minify --outfile=dist/capjs.min.js"
   },
-  "keywords": ["game", "framework", "canvas", "capjs"],
+  "keywords": [
+    "game",
+    "framework",
+    "canvas",
+    "capjs"
+  ],
   "author": "r7l-labs",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
 }
